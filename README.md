@@ -1,4 +1,4 @@
-# MIPS Pipelined Processor with Hazard Detection
+# MIPS Pipelined Processor with Hazard Handling
 ![](./image/mips-pipelined-processor.svg)
 
 By Inductiveload - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5769084
@@ -6,7 +6,7 @@ By Inductiveload - Own work, Public Domain, https://commons.wikimedia.org/w/inde
 **Note:** The diagram sourced from Wikimedia Commons illustrates a generic pipelined processor architecture (without a forwarding unit and hazard detection unit). Although it differs from the specific implementation based on "Computer Organization and Design - The Hardware/Software Interface" (4th Edition), Figure 4.60, I have opted to use it for illustrative purposes and copyright considerations.
 
 ## Description
-This project implements a pipelined processor with hazard detection logic in Verilog/VHDL by adding forwarding and stalling features. 
+This project implements a pipelined processor with hazard handling logic in Verilog/VHDL by adding forwarding and stalling features. 
 
 ## Features
 - Implementation of MIPS instruction set architecture (ISA).
